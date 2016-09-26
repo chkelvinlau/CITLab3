@@ -3,4 +3,4 @@ git clone repository.link.git
 git status
 git add filename.ext
 git commit -m "message for people to read"
-git push origin master
+git push origin master / git push origin gh-pages
