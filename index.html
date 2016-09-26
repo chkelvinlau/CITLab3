@@ -26,7 +26,19 @@
     </style>
     <body>
         New Changes
-        <div id="display"></div>
-        <button id="button">COOL STUFF</button>
+        <div id="display">
+            <button id="button">COOL STUFF</button>
+        </div>
+        <script>
+            var myButton = document.getElementById("button");
+            var myDisplay = document.getElementById("display");
+            var myWidth = document.getElementById("button");
+            
+            myButton.onclick = function(){
+                myDisplay.style.backgroundColor = "#AAA";
+                myWidth.style.width = "500px";
+                
+            }
+        </script>
     </body>
 </html>
